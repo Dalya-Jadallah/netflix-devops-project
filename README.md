@@ -107,12 +107,12 @@ Event Schema
 
 👥 Team Members
 
-Dalya Jadallah
-Layan Abu Ghazal
-Dana Shublaq
+- Dalya Jadallah
+- Layan Abu Ghazal
+- Dana Shublaq
 
 📚 Course Information
 
-Course: Special Topics 1 in Data Science and AI
-Professor: Dr. Omar Alqawasmeh
-Date: May 2026
+- Course: Special Topics 1 in Data Science and AI
+- Professor: Dr. Omar Alqawasmeh
+- Date: May 2026
