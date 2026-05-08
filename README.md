@@ -75,8 +75,6 @@ docker exec -it netflix-devops-project-kafka-1 /opt/kafka/bin/kafka-console-cons
   --topic user-clicks \
   --from-beginning
 
-You should see your JSON events appear with timestamps.
-
 📁 Project Structure
 
 netflix-devops-project/
