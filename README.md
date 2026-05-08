@@ -88,9 +88,9 @@ netflix-devops-project/
 🔧 API Endpoints
 
 Method	Endpoint	Description
-GET	/health	Health check
-POST	/event	Send a single user event
-POST	/events/batch	Send multiple events at once
+- GET	/health	Health check
+- POST	/event	Send a single user event
+- POST	/events/batch	Send multiple events at once
 
 Event Schema
 
