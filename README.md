@@ -76,7 +76,7 @@ docker exec -it netflix-devops-project-kafka-1 /opt/kafka/bin/kafka-console-cons
 You should see your JSON events appear with timestamps.
 
 📁 Project Structure
-text
+
 netflix-devops-project/
 ├── app.py                 # Flask API (event receiver)
 ├── Dockerfile             # Container definition
