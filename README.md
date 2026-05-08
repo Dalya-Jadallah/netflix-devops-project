@@ -54,10 +54,10 @@ Flask API (event ingestion service)
 ## 3. Send Test Events
 Open a new terminal and run:
 
-# Health check
+Health check
 curl http://localhost:5000/health
 
-# Send a single event
+Send a single event
 curl -X POST http://localhost:5000/event \
   -H "Content-Type: application/json" \
   -d '{"user_id":"user_123","movie_id":"movie_456","event_type":"play","session_id":"session_789"}'
