@@ -40,6 +40,7 @@ Before running this project, ensure you have:
 ## 1. Clone the Repository
 
 git clone https://github.com/Dalya-Jadallah/netflix-devops-project.git
+
 cd netflix-devops-project
 
 ## 2. Start the Pipeline
