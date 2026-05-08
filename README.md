@@ -55,14 +55,17 @@ Flask API (event ingestion service)
 Open a new terminal and run:
 
 Health check
+
 curl http://localhost:5000/health
 
 Send a single event
+
 curl -X POST http://localhost:5000/event \
   -H "Content-Type: application/json" \
   -d '{"user_id":"user_123","movie_id":"movie_456","event_type":"play","session_id":"session_789"}'
 
-# Send multiple events at once
+Send multiple events at once
+
 curl -X POST http://localhost:5000/events/batch \
   -H "Content-Type: application/json" \
   -d '[{"user_id":"user_1","movie_id":"movie_10","event_type":"click"},{"user_id":"user_2","movie_id":"movie_20","event_type":"like"}]'
@@ -86,12 +89,14 @@ netflix-devops-project/
 └── README.md              # This file
 
 🔧 API Endpoints
+
 Method	Endpoint	Description
 GET	/health	Health check
 POST	/event	Send a single user event
 POST	/events/batch	Send multiple events at once
 
 Event Schema
+
 {
   "user_id": "string",
   "movie_id": "string", 
@@ -101,11 +106,17 @@ Event Schema
 }
 
 👥 Team Members
+
 Dalya Jadallah
+
 Layan Abu Ghazal
+
 Dana Shublaq
 
 📚 Course Information
+
 Course: Special Topics 1 in Data Science and AI
+
 Professor: Dr. Omar Alqawasmeh
+
 Date: May 2026
