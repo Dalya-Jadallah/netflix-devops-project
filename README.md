@@ -112,4 +112,4 @@ Event Schema
 
 - Course: Special Topics 1 in Data Science and AI
 - Professor: Dr. Omar Alqawasmeh
-- Date: May 2026
+- Date: 9 May 2026
