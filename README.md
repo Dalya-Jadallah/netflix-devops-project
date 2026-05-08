@@ -68,6 +68,8 @@ curl -X POST http://localhost:5000/events/batch \
   -d '[{"user_id":"user_1","movie_id":"movie_10","event_type":"click"},{"user_id":"user_2","movie_id":"movie_20","event_type":"like"}]'
   
 ## 4. Verify Events in Kafka
+
+```bash
 docker exec -it netflix-devops-project-kafka-1 /opt/kafka/bin/kafka-console-consumer.sh \
   --bootstrap-server kafka:9092 \
   --topic user-clicks \
